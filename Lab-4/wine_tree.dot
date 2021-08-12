@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="flavanoids <= 1.235\nentropy = 1.552\nsamples = 142\nvalue = [41, 62, 39]\nclass = class_1", fillcolor="#d6fae5"] ;
+1 [label="entropy = 0.461\nsamples = 41\nvalue = [0, 4, 37]\nclass = class_2", fillcolor="#8f4ee8"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="entropy = 1.1\nsamples = 101\nvalue = [41, 58, 2]\nclass = class_1", fillcolor="#c7f8db"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
