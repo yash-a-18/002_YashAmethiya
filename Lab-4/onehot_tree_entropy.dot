@@ -1,0 +1,8 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [label="Humidity_High <= 0.5\ngini = 0.444\nsamples = 9\nvalue = [3, 6]\nclass = play_yes", fillcolor="#9ccef2"] ;
+1 [label="gini = 0.0\nsamples = 4\nvalue = [0, 4]\nclass = play_yes", fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.48\nsamples = 5\nvalue = [3, 2]\nclass = play_no", fillcolor="#f6d5bd"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
